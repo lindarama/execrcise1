@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabel dari Swapi</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Press+Start+2P" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h1>Rest API SWAPI </h1>
+                <p>Type Something in this search area..</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" id="cari" type="search" placeholder="Search..">
+                </form>
+                <br>
+
+                <form>
+                    <div class="aturtabel">
+                        <table class="people1" id="pengisian">
+                            <tr>
+                                <th>Nama</th>
+                                <th>Height</th>
+                                <th>Mass</th>
+                                <th>Hair Color</th>
+                                <th>Skin Color</th>
+                                <th>Eye Color</th>
+                                <th>Birth Year</th>
+                                <th>Gender</th>
+                                <th>Home World</th>
+                                <th>Films</th>
+                            </tr>
+                            <tbody id="dataTabel">
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function() {
+        var peopleData = '';
+        $.get('https://swapi.co/api/people/', function(data) {
+            console.log('ok');
+
+            // Tampil data people
+            $.each(data.results, function(key, value) {
+                peopleData += `<tr>`
+                peopleData += '<td>' + value.name + '</td>';
+                peopleData += '<td>' + value.height + '</td>';
+                peopleData += '<td>' + value.mass + '</td>';
+                peopleData += '<td>' + value.hair_color + '</td>';
+                peopleData += '<td>' + value.skin_color + '</td>';
+                peopleData += '<td>' + value.eye_color + '</td>';
+                peopleData += '<td>' + value.birth_year + '</td>';
+                peopleData += '<td>' + value.gender + '</td>';
+                peopleData += '<td>' + value.homeworld + '</td>';
+                peopleData += '<td>' + value.films + '</td>';
+                peopleData += `</tr>`;
+            });
+
+            $('#dataTabel').append(peopleData);
+        });
+
+        // filter
+        $('#cari').on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $('#dataTabel tr').filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+
+    });
+</script>
+
+</html>
