@@ -1,0 +1,79 @@
+.navbar {
+    position: fixed;
+    background-color: #f27013 !important;
+}
+
+.navbar-brand{
+    font-size: 34px;
+    font-family: 'Kanit';
+}
+
+.navbar-brand, .nav-link{
+    color: black !important;
+    text-shadow: 1px 1px 1px, rgba(0, 0, 0, 0.7);
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-family: 'Kanit';
+}
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid black;
+    width: 50px;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.jumbotron{
+    position: relative;
+    height: 2500px;
+    background-color: #aee6e6;
+}
+
+.tugas img{
+    width: 650px;
+    height: 650px;
+}
+
+.display-4{
+    font-family: 'Kanit';
+}
+
+.jumbotron .deskripsi {
+    margin-top: 100px;
+}
+
+.ilmu{
+    margin-top: 100px;
+}
+
+.latihan {
+    margin-top: 200px;
+}
+
+.latihan .tiga{
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.jumbotron .masukan {
+    margin-top: 200px;
+}
+
+.info-panel {
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px, 3px, 20px rgba(0, 0, 0, 0);
+}
+
+footer {
+    color: grey;
+    font-size: 20px;
+    margin-top: -20px;
+}
+

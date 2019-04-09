@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+</head>
+
+<body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#home" class="navbar-brand page-scroll">Linda Ramadhani</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a href="Exercise1/index.html" class="nav-item nav-link" target="_blank">Exercise 1<span class="sr-only">(current)</span></a>
+                    <a href="Exercise2/index.html" class="nav-item nav-link" target="_blank">Exercise 2</a>
+                    <a href="Exercise 3/index.html" class="nav-item nav-link" target="_blank" tabindex="-1" aria-disabled="true">Exercise 3</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <!-- row tugas -->
+            <div class="row tugas">
+                <div class="col-md-7">
+                    <img src="img/hacktiv1.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <div class="deskripsi">
+                        <h1 class="display-4"><b>FINAL</b> PROJECT</h1>
+                        <p>Tugas terakhir saya untuk menutup pertemuan terakhir pada pelatihan ini</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                            Apa ya Tugas nya ?
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content modalbg">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Detail Tugas</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li>Memiliki slider image</li>
+                                            <li>Menggunakan form dan gunakanlah <a href="http://formspree.io">Formspree</a> untuk melihat hasil submit dari form tersebut</li>
+                                            <li>Menggunakan modal</li>
+                                            <li>Memiliki 3 halaman (minimal)</li>
+                                            <li><i>Upload</i> ke <a href="http://github.com">Github</a> dengan nama <i>repository</i> Final Project </li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Oke, Mengerti</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--akhir modal  -->
+                    </div>
+                </div>
+            </div>
+            <!-- akhir row tugas -->
+
+            <!-- row ilmu -->
+            <div class="row ilmu">
+                <div class="col-md-6">
+                    <h1 class="display-4"><b>ILMU</b> Yang Di Dapat</h1>
+                    <p>Banyak wawasan ilmu yang saya dapat sehingga ilmu saya tentang Web Developer khususnya Front End, dapat bertambah cukup banyak, apa saja ilmunya bisa dilihat slider image disamping -> </p>
+                </div>
+                <div class="col-md-6">
+                    <!-- Carousel -->
+                    <div class="carousel slide" id="carouselExampleControls" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/port2.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/port3.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/port4.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/port5.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/jquery.png" class="d-block w-100" alt="">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!-- akhir carousel -->
+                </div>
+            </div>
+            <!-- akhir row ilmu -->
+
+            <!-- row latihan -->
+            <div class="row latihan">
+                <div class="col-md-4">
+                    <div class="card text-center bg-warning" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Exercise 1</h5>
+                            <p class="card-text">Membuat Data Diri</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+                                Detail Tugas
+                            </button>
+                            <!-- Modal Exercise 1 -->
+                            <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content modalbg">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalCenterTitle">Detail Tugas</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h5>Buatlah sebuah halaman HTML yang berisi tentang data diri kalian. Gunakan tag-tag HTML 
+                                                untuk membuat halaman tersebut dan gunakan CSS untuk mempercantik tampilannya!! Jangan 
+                                                lupa untuk upload halaman tersebut ke <a href="http://github.com">Github</a> dengan nama repository "Exercise 1" </h5>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Oke</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir modal exercise 1 -->
+                            <a href="Exercise1/index.html" target="_blank" class="btn btn-primary">Go Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center bg-warning" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Exercise 2</h5>
+                            <p class="card-text">Membuat Kalkulator</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal2">
+                                Detail Tugas
+                            </button>
+                            <!-- Modal Exercise 2 -->
+                            <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content modalbg">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalCenterTitle">Detail Tugas</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h5>Buatlah sebuah page yang berfungsi sebagai kalkulator. Buatlah semenarik mungkin!! 
+                                                Jangan lupa untuk menggunakan CSS dan upload halaman tersebut ke <a href="http://github.com">Github</a> dengan 
+                                                nama <i>repository</i> "Exercise 2". </h5>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Oke</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir modal exercise 2 -->
+                            <a href="Exercise2/index.html" target="_blank" class="btn btn-primary">Go Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h1 class="display-4"><b>TUGAS</b> Yang Di Berikan</h1>
+                    <p>Pada setiap pertemuan selalu diberikan sebuah exercise untuk penilaian, dari exercise ini lah saya dapat belajar banyak dan memanfaatkan waktu sebaik mungkin
+                    </p>
+                </div>
+                <div class="col-md-6 tiga">
+                    <div class="card text-center bg-warning" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Exercise 3</h5>
+                            <p class="card-text">Membuat Table Dari Data SWAPI</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal3">
+                                Detail Tugas
+                            </button>
+                            <!-- Modal exercise 3 -->
+                            <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content modalbg">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalCenterTitle">Detail Tugas</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <ul>
+                                                <li>Buatlah <i>Table</i> dari Data
+                                                    <a href="https://swapi.co/"></a>
+                                                </li>
+                                                <li>Tambah <i>field</i> untuk <i>filtering</i> data dari table tersebut</li>
+                                                <li><i>Upload</i> ke <a href="http://github.com">Github</a> dengan nama <i>repository</i> Exercise 3 </li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Oke</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- akhir modal exercise 3 -->
+                            <a href="Exercise 3/index.html" target="_blank" class="btn btn-primary">Go Launch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- akhir row latihan -->
+
+            <!-- Masukan -->
+            <div class="row masukan">
+                <div class="col-md-6">
+                    <h1 class="display-4"><b>Beri</b> Saya Masukan</h1>
+                    <p>agar saya dapat jauh lebih semangat untuk dapat mengejar impian saya sebagai Web Developer
+                    </p>
+                </div>
+                <div class="col-md-6 info-panel justify-content-center bg-warning">
+                    <h5>Silahkan isi form dibawah ini</h5>
+                    <br>
+                    <form action="https://formspree.io/ramadhanilinda220@gmail.com" method="POST">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" name="name" placeholder="Nama depan" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" name="name2" placeholder="Nama belakang" required>
+                            </div>
+                        </div>
+                        <br>
+                        <input type="email" id="validationDefault03" class="form-control" placeholder="Email" name="_replyto" required>
+                        <br>
+                        <input type="tel" id="validationDefault04" class="form-control" name="nohp" placeholder="Nomor Handphone" required>
+                        <br>
+                        <textarea class="form-control" name="pesan" id="exampleFormControlTextarea1" rows="3" placeholder="Tulis Masukan Positif Kalian disini.."></textarea>
+                        <br>
+                        <button type="submit" value="Send" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+            <!-- akhir row masukan -->
+        </div>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center"> 2019 All Right Reserved | By Linda </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- akhir footer -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+h1 {
+    margin-top: 50px;
+    color: #858dbb;
+    font-family: 'Baloo Chettan';
+    font-size: 50px;
+}
+.kalkulator{
+    margin : 75px 530px ;
+    width: 300px;
+    height: 400px;
+    background-color: #eaecf7;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 1px 1px black;
+}
+.badanKalkulator{
+    margin:0px 15px;
+    width: 250px;
+    height: 315px;
+    background-color: #858dbb;
+    border-radius: 12px;
+    box-shadow: 2px 2px 1px 1px #777d71;
+}
+.btn{
+    margin: 10px;
+    margin-left: 15px;
+    width: 30px;
+    height: 40px;
+    background-color: #b87fb1;
+    color: black;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 2px 2px 1px 1px;
+}
+.btn:hover {
+    color: #f7f6e7;
+}
+.btnOpr{
+    margin: 10px;
+    margin-left: 15px;
+    width: 30px;
+    height: 40px;
+    background-color: #f7f6e7;
+    color: black;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 2px 2px 1px 1px;
+}
+.btnOpr:hover{
+    color: palevioletred;
+}
+.btnAdd{
+    margin: 10px;
+    margin-left: 15px;
+    width: 30px;
+    height: 40px;
+    background-color:#ffffff;
+    color: black;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 2px 2px 1px 1px;
+}
+.btnAdd:hover{
+    color: palevioletred;
+}
+.btnSm {
+    width: 160px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: none;
+    color: black;
+    background-color: #ffffff;
+    font-size: 20px;
+    box-shadow: 2px 2px 1px 1px;
+}
+.btnSm:hover{
+    color: palevioletred;
+}
+.keluaran{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    margin-left: 15px;
+    border-radius: 5px;
+    text-align: right;
+    color: black;
+    background-color: #f7f6e7;
+    outline-color: #858dbb;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+}

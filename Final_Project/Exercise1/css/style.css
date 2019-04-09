@@ -1,0 +1,191 @@
+.jumbotron-fluid {
+    position: relative;
+    background-image: url('img/jumbotron5.png');
+    background-size: cover;
+    height : 650px;
+}
+
+.jumbotron .card {
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+.nav-link {
+    margin: 15px;
+    
+}
+
+.navbar-brand {
+    font-family: Quicksand;
+    font-size : 32px;
+}
+
+
+.identitas {
+    
+    z-index: 1;
+    margin-bottom: 75px;
+
+}
+
+.identitas .img-thumbnail {
+    width: 300px;
+    height: 400px;
+    border-radius: 12px;
+    margin-left: 75px;
+    margin-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.identitas h3{
+    font-family: Quicksand;
+    font-size: 54px;
+}
+
+.identitas p {
+    font-size: 20px;
+    color: gray;
+}
+
+.identitas ul{
+    list-style-type: none;
+    padding-top: 30px;
+
+}
+
+.identitas ul li{
+    
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    float: left;
+    border-radius: 25px;
+    border: 3px solid coral;
+    width: 250px;
+    height: 75px; 
+}
+
+.identitas li p {
+    font-size: 15px;
+    color: darkgray;
+}
+
+.identitas hr {
+    height: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pendidikan {
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+.pendidikan h3 {
+    
+    font-family: Quicksand;
+    font-size: 54px;
+}
+
+.pendidikan hr{
+    height: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pendidikan .card {
+    margin-top: 25px;
+    border-color: coral;
+    border-width: 3px;
+}
+
+.pendidikan .card-header {
+    color: gray;
+
+}
+
+.keahlian {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.keahlian h3 {
+    font-family: Quicksand;
+    font-size: 54px;
+    text-align: center;
+}
+
+.keahlian hr{
+    height: 2px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.keahlian .text {
+    text-align: center;
+    margin-bottom: -75px;
+}
+
+.keahlian .progress {
+    margin-top: 5px;
+
+}
+
+.keahlian h4{
+    margin-top: 35px;
+}
+
+
+.album h2{
+    font-family: Quicksand;
+    font-size: 54px;
+    text-align: center;
+}
+
+.album hr{
+    height: 2px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album p {
+    text-align: center;
+}
+
+.gambar img {
+    width: 450px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+section {
+    min-height: 650px;
+}
+
+footer{
+    color: grey;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
